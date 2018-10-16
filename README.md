@@ -5,7 +5,7 @@
 # Steps to perform before executing the project
   - Clone the repository on  your local machine
   - Open MYSQL Workbench
-  - Goto the project home directory and import the .sql file located inside schema folder to get the data ready
+  - Goto the project home directory and import and execute the .sql file located inside schema folder to get the data ready
   
 # How to run the Project?
   - Goto the project home directory from command prompt and execute 'npm install' command
