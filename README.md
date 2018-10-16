@@ -22,10 +22,10 @@
     This endpoint lists all the employees along with all the attributes present in the database. This endpoint can only be accessed by the admin role user
     
   - GET  /:emp-id (http://localhost:8080/employee/:emp-id) : 
-    This endpoint is responsible for fetching the data of the employee based on employee id. Employee whose role is admin can access any employee's data but the employee with editor role will only be able to access his/her data only. For e.g.: If the logged in user is of type editor and its employee id is 2 then he will be able to access only emp-id 2's data, but if the logged in user is of type admin, then he can access data of any employee
+    This endpoint is responsible for fetching the data of the employee based on employee id. Employee whose role is admin can access any employee's data but the employee with editor role will only be able to access his/her data only. **For e.g.: If the logged in user is of type editor and its employee id is 2 then he will be able to access only emp-id 2's data, but if the logged in user is of type admin, then he can access data of any employee**
     
 # Important Note
-  - While starting the project using 'node index.js', if you run into an error related to authentication, first check your connection parameters. If the connection parameters are correct and still you are not able to establish connection to the database then execute below query in MYSQL - "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'"
+  - While starting the project using 'node index.js', if you run into an error related to authentication, first check your connection parameters. If the connection parameters are correct and still you are not able to establish connection to the database then execute below query in MYSQL - **"ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'"**
   
 # Validations Not Done
   - Since in this project only APIs are written, validations for email and password are not done
