@@ -1,6 +1,6 @@
 # Pre-requisites
-  MYSQL
-  Node.js(Version above 6 is recommended)
+  - MYSQL
+  - Node.js(Version above 6 is recommended)
   
 # Steps to perform before executing the project
   Clone the repository on  your local machine
